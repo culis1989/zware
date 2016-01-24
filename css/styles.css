@@ -62,11 +62,13 @@ table {
 body{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+	color: #2F2F2F;
 }
 #content p{
   font-size: 15px;
   line-height: 22px;
   margin-bottom: 20px;
+	color: #585858;
 }
 #content{
   width: 75%;
@@ -113,7 +115,7 @@ aside h3{
   padding-bottom: 14px;
 }
 aside h3 span{
-  
+
 }
 aside h3:before{
   background-color: #F17130;
@@ -126,10 +128,11 @@ aside h3:before{
 }
 h3{
   font-weight: 700;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 24px;
   margin-bottom: 18px;
   text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
 }
 .wrapper{
   max-width: 1200px;
@@ -191,7 +194,7 @@ ul.blog li .date{
   font-size: 22px;
   text-align: center;
   font-family: 'Play', sans-serif;
-  padding: 8px;
+  padding: 6px;
   border-bottom: 3px solid #2F2F2F;
 }
 ul.blog li .date span{
@@ -199,16 +202,16 @@ ul.blog li .date span{
   width: 60px;
 }
 ul.blog li .date span:first-child{
-  font-size: 40px;
+  font-size: 38px;
 }
 ul.blog li .date span:nth-child(2){
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
 ul.blog li .date span:nth-child(3){
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -218,9 +221,10 @@ a.button{
   border: 1px solid #2F2F2F;
   text-decoration: none;
   color: #2F2F2F;
+	font-weight: 400;
   text-transform: uppercase;
-  font-weight: 600;
-  border-width: 2px;
+	font-weight: 600;
+	border-width: 2px;
 }
 a.button.hard{
   font-weight: 600;
@@ -240,7 +244,7 @@ a.button:hover{
   font-size: 13px;
   line-height: 14px;
   border-bottom: 2px solid #EF702F;
-  font-family: 'Play', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 .top .social{
   font-size: 13px;
