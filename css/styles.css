@@ -59,6 +59,9 @@ table {
 .inline li{
   display: inline-block;
 }
+b{
+	font-weight: 600;
+}
 body{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
