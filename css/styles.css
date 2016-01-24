@@ -441,10 +441,19 @@ pre[class*="language-"],
 	background-color: transparent;
 	padding: 0;
 	margin: 0;
+	margin-bottom: 22px;
 }
 code[class*="language-"],
 pre[class*="language-"]{
 	text-shadow: none;
+}
+code[class*="language-"],
+pre[class*="language-"]{
+    text-shadow: none;
+    background: #F3F3F3;
+}
+pre{
+	padding: 10px !Important;
 }
 code,
 .hljs
