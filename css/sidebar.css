@@ -13,12 +13,12 @@ aside .widget {
   border-bottom: 3px solid #2F2F2F;
 }
 aside h3{
-  width: calc(100% + 8px);
+  width: calc(100% + 10px);
   margin-left: -28px;
   padding: 0 20px;
-  border-bottom: none;
   background-color: #2F2F2F;
   line-height: 40px;
+  border-bottom: 2px solid white;
 }
 aside .widget ul li a {
   color: #FFFFFF;
