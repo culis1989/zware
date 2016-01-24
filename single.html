@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Z-WARE.fi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- web fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700,300,200,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Play:400,700|Roboto:400,300,700,500,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <!-- syntax highlight -->
+  <link rel="stylesheet" href="css/prism.css">
+  <script src="js/prism.js"></script>
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- inlude this to see light version of theme -->
+  <!--<link rel="stylesheet" href="css/light.css">-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="top">
+    <div class="wrapper">
+      <div class="pull-left">
+        <p>Copyright © 2016 Z-Ware Ltd.</p>
+      </div>
+      <div class="pull-right">
+          Get in touch!
+          <ul class="social inline">
+            <li><a href="#"><i class="fa fa-twitter"></i> /zmilojko</a></li>
+            <li><a class="disabled" href="#"><i class="fa fa-envelope-o"></i> <span class="email" data-user="okjlez" data-website="if.erawz"></span></a></li>
+            <li><a href="#"><i class="fa fa-mobile"></i> +358 (50) 407 - 35 - 15</a></li>
+          </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <header>
+    <div class="wrapper">
+      <div class="pull-left">
+        <a class="logo pull-left" href="#"><img class="pull-left" src="img/logo.png" alt="zware logo"/></a>
+      </div>
+      <nav class="pull-right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+  </header>
+  <div class="lead">
+    <div class="wrapper">
+      <a href="index.html"><i class="fa fa-home"></i> Home</a> / <a href="blog.html">Blog</a> / <span>I hate those trailing whitespaces</span>
+    </div>
+  </div>
+  <div class="wrapper main">
+    <div id="content" class="pull-left">
+      <!-- single blog post -->
+      <div class="single-post">
+        <div class="date">
+          <span>10</span>
+          <span>Feb</span>
+          <span>2015</span>
+        </div>
+        <h3>GPS on Android - And how to show a gist in RefineryCMS</h3>
+        <div class="tags"><a href="#"> business</a> / <a href="#">rails</a> / <a href="#">android</a> / 0 comments</div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Fusce a euismod magna. Sed ac justo maximus, gravida nulla a,
+          mollis neque. Aliquam id justo mi. Aenean tempor massa
+          vitae nibh venenatis tristique. Sed et ante vel velit
+          hendrerit placerat a at velit. Nulla mi nulla,
+          aliquam a ullamcorper in, interdum vitae libero.
+          Fusce urna elit, efficitur ut vehicula et, suscipit eget ante.
+          Donec urna risus, aliquam eu tempor ultrices, pellentesque eget dolor.
+          Maecenas at accumsan est. In nec <span>aliquet</span> nisl. Etiam efficitur odio sed
+          laoreet pellentesque. Aenean tempor sit amet nulla quis cursus.
+         </p>
+         <p>
+           Aenean molestie massa euismod tempor volutpat.
+           Suspendisse potenti. Sed pharetra quam vel consequat venenatis.
+           Aenean nec congue orci. Donec in eros sed <a href="#">ligula</a> vulputate consectetur.
+           Morbi volutpat enim nec dui egestas mattis. Cras vitae aliquam dui,
+           vel lobortis mi. Mauris gravida nisi a dolor faucibus, vitae
+           venenatis mi venenatis. Curabitur <span>blandit</span> velit in ipsum auctor ultrices.
+           Suspendisse potenti. Donec in dolor id ligula aliquam venenatis.
+           Pellentesque quis accumsan neque.
+         </p>
+<pre>
+<code class="language-php">
+$productAttributeOptions = $product->getTypeInstance(true)->getConfigurableAttributesAsArray($product);
+$attributeOptions = array();
+foreach ($productAttributeOptions as $productAttribute) {
+  foreach ($productAttribute['values'] as $attribute) {
+    $attributeOptions[$productAttribute['label']][$attribute['value_index']] = $attribute['store_label'];
+  }
+}
+</code>
+</pre>
+         <p>
+           Aenean elit nisi, venenatis ullamcorper molestie eget,
+           dapibus et lectus. Mauris quis pellentesque odio,
+           et varius lorem. Donec venenatis hendrerit magna,
+           vitae tristique enim posuere eu. Curabitur nec venenatis quam.
+           Cum sociis natoque penatibus et magnis dis parturient montes,
+            nascetur <a href="#">ridiculus</a> mus. Ut eget nunc libero. Suspendisse aliquam
+            turpis sapien, at vehicula nulla pretium vitae. Sed interdum risus
+            vitae gravida elementum. Ut laoreet venenatis diam, porta gravida
+            nibh pulvinar at. Vestibulum a justo varius, bibendum dolor ut,
+            congue libero. Sed ac massa nisl. Suspendisse nec molestie sapien.
+            Nullam scelerisque scelerisque diam, eget imperdiet risus ultrices imperdiet.
+          </p>
+          <p>
+            Fusce maximus turpis a turpis vulputate, id vulputate metus pharetra.
+            Praesent in augue id lacus consectetur scelerisque. Suspendisse nec
+            velit orci. Quisque sit amet libero mollis, pellentesque turpis sed,
+             faucibus nisl. Nam eget augue sed lectus pharetra fringilla nec
+             ornare enim. Vestibulum vitae tristique lorem. Maecenas ligula ipsum,
+             fermentum at rhoncus id, <a href="#">consequat</a> a arcu. Praesent elementum nibh
+             ut finibus cursus. Proin ultrices vehicula sem, nec finibus risus
+             pharetra eget. Quisque tempus massa quis maximus congue.
+             Pellentesque habitant morbi tristique senectus et netus et malesuada
+             fames ac turpis egestas. Nulla id arcu ac sem porttitor sagittis.
+          </p>
+          <div class="comments">
+            <h4>Comments:</h4>
+            <ul>
+              <li>
+                <span>Eerik Koskelo</span><span>(11.02.2015)</span>
+                <p>Woooah! This artcile is awesome! I like it!</p>
+              </li>
+              <li>
+                <span>Erland Bodin</span><span>(14.02.2015)</span>
+                <p>Praesent elementum nibh ut finibus cursus. Proin ultrices vehicula sem, nec finibus risus pharetra eget. </p>
+              </li>
+              <li>
+                <span>Henri Guy</span><span>(16.06.2015)</span>
+                <p>Ut eget nunc libero. Suspendisse aliquam turpis sapien, at vehicula nulla pretium vitae. Sed interdum risus vitae gravida elementum. Ut laoreet venenatis diam, porta gravida nibh pulvinar at. </p>
+              </li>
+            </ul>
+            <h4>Leave a comment:</h4>
+            <form>
+              <input type="email" name="email" placeholder="email"/>
+              <input type="text" name="name" placeholder="Name"/>
+              <textarea placeholder="Your comment"></textarea>
+              <button type="submit">SEND</button>
+            </form>
+          </div>
+      </div>
+      <!-- // single blog post -->
+    </div>
+    <aside class="pull-left">
+      <div class="widget">
+        <h3><span>O</span>ther posts</h3>
+        <ul>
+          <li><a href="#">I hate those trailing whitespaces</a></li>
+          <li><a href="#">Interview</a></li>
+          <li><a href="#">GPS on Android - and how to show a Gist in RefineryCMS</a></li>
+          <li><a href="#">Pure reflection call in JS</a></li>
+          <li><a href="#">Installation package that doesn't suck and isn't huge</a></li>
+          <li><a href="#">Your own SMS service</a></li>
+          <li><a href="#">The price of EC2</a></li>
+          <li><a href="#">Leaving Firefox</a></li>
+          <li><a href="#">Using template handlers for events in C#</a></li>
+        </ul>
+      </div>
+      <div class="widget">
+        <h3><span>A</span>rchives</h3>
+        <ul>
+          <li><a href="#">April 2014 (4)</a></li>
+          <li><a href="#">April 2013 (1)</a></li>
+          <li><a href="#">February 2013 (1)</a></li>
+          <li><a href="#">January 2013 (1)</a></li>
+          <li><a href="#">2012</a></li>
+        </ul>
+      </div>
+    </aside>
+    <div class="clear"></div>
+  </div>
+  <footer>
+    <div class="wrapper">
+      <a href="#"><img src="img/logo.png" alt="zware logo"/></a></br>
+      <ul class="social inline">
+        <li><a href="#"><i class="fa fa-twitter"></i> /zmilojko</a></li>
+        <li><a class="disabled" href="#"><i class="fa fa-envelope-o"></i> <span class="email" data-user="okjlez" data-website="if.erawz"></a></li>
+        <li><a href="#"><i class="fa fa-mobile"></i> +358 (50) 407 - 35 - 15</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="bottom">
+    <div class="wrapper">
+      <p class="legal">Copyright © 2016 Z-Ware Ltd.</p>
+    </div>
+  </div>
+</body>
+</html>
