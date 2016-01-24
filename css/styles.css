@@ -142,6 +142,9 @@ h3{
   -moz-box-sizing: border-box;
   margin: 0 auto;
 }
+.wrapper.main{
+	padding: 40px 10px;
+}
 #content{
   padding-bottom: 40px;
 }
@@ -245,6 +248,10 @@ ul.pagination li.active a{
 	pointer-events: none;
 	cursor: default;
 }
+a.disabled{
+	pointer-events: none;
+	cursor: default;
+}
 ul.pagination li.active:hover{
 	border-color:#2F2F2F;
 }
@@ -297,6 +304,9 @@ a.button:hover{
 .social li a i{
   margin-right: 4px;
 }
+.top .social a.disabled:hover{
+	color: white;
+}
 header,
 footer{
   background-color: #2F2F2F;
@@ -336,14 +346,25 @@ nav ul li:after{
 nav ul li a:hover{
   color: #F17130;
 }
+.lead{
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 15px;
+	color: #C55C26;
+	background-color: #CACACA;
+}
+.lead a{
+	text-decoration: none;
+	color: #2F2F2F;
+}
 footer{
   border-top: 4px solid #C5C5C5;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-footer img,
-footer .social{
+footer img{
   margin-bottom: 16px;
 }
 footer .social li a{
@@ -352,4 +373,20 @@ footer .social li a{
 }
 footer p.legal{
   font-size: 14px;
+}
+span.email{
+	display: inline-block;
+}
+span.email:before{
+	content: attr(data-website) "\0040" attr(data-user);
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	color: #fff !Important;
+}
+.bottom{
+	background-color: #585858;
+	border-top: 2px solid #F17130;
+	text-align: center;
+	color: #F17130;
+	font-size: 13px;
 }
