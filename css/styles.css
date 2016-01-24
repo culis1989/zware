@@ -73,11 +73,52 @@ body{
 }
 aside{
   width: 25%;
+  min-height: 800px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 #content,
 aside{
   box-sizing: border-box;
   -moz-box-sizing: border-box;
+}
+aside .widget{
+  margin-top: 20px;
+}
+aside .widget:first-child{
+  padding-top: 0;
+  margin-top: 0;
+  border-top: none;
+}
+aside .widget ul li{
+  margin-bottom: 6px;
+}
+aside .widget ul li a{
+  color: #585858;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  border-bottom: 1px dashed #DADADA;
+  padding-bottom: 8px;
+  display: inline-block;
+  width: 100%;
+}
+aside .widget ul li a:hover{
+  color: #F17130;
+}
+aside h3{
+  border-bottom: 1px solid #F17130;
+  padding-bottom: 14px;
+}
+aside h3:before{
+  background-color: #F17130;
+  position: absolute;
+  display: block;
+  content: "";
+  width: 5px;
+  height: 20px;
+  margin-left: -23px;
 }
 h3{
   font-weight: 700;
@@ -94,7 +135,6 @@ h3{
   margin: 0 auto;
 }
 #content{
-  padding-top: 40px;
   padding-bottom: 40px;
 }
 ul.blog,
