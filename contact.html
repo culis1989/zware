@@ -67,104 +67,42 @@
   </header>
   <div class="lead">
     <div class="wrapper">
-      <a href="index.html"><i class="fa fa-home"></i> Home</a> / <a href="blog.html">Blog</a> / <span>I hate those trailing whitespaces</span>
+      <a href="index.html"><i class="fa fa-home"></i> Home</a> / <span>Contacct</span>
     </div>
   </div>
   <div class="wrapper main">
     <div id="content" class="pull-left">
-      <!-- single blog post -->
-      <div class="single-post">
-        <div class="date">
-          <span>10</span>
-          <span>Feb</span>
-          <span>2015</span>
-        </div>
-        <h3>GPS on Android - And how to show a gist in RefineryCMS</h3>
-        <div class="tags"><a href="#"> business</a> / <a href="#">rails</a> / <a href="#">android</a> / <b>0 comments</b></div>
+      <!-- contact -->
+      <div class="contact">
+        <h1>Give us a nudge!</h1>
+        <ul class="social inline dark">
+           <li><a href="#"><i class="fa fa-twitter"></i>zmilojko</a></li>
+           <li><a class="disabled" href="#"><i class="fa fa-envelope-o"></i> <span class="email" data-user="okjlez" data-website="if.erawz"></span></a></li>
+           <li><a href="#"><i class="fa fa-mobile"></i> +358 (50) 407 - 35 - 15</a></li>
+         </ul>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Fusce a euismod magna. Sed ac justo maximus, gravida nulla a,
           mollis neque. Aliquam id justo mi. Aenean tempor massa
-          vitae nibh venenatis tristique. Sed et ante vel velit
-          hendrerit placerat a at velit. Nulla mi nulla,
+          vitae nibh venenatis tristique. Nulla mi nulla,
           aliquam a ullamcorper in, interdum vitae libero.
           Fusce urna elit, efficitur ut vehicula et, suscipit eget ante.
           Donec urna risus, aliquam eu tempor ultrices, pellentesque eget dolor.
           Maecenas at accumsan est. In nec <span>aliquet</span> nisl. Etiam efficitur odio sed
           laoreet pellentesque. Aenean tempor sit amet nulla quis cursus.
          </p>
-         <p>
-           Aenean molestie massa euismod tempor volutpat.
-           Suspendisse potenti. Sed pharetra quam vel consequat venenatis.
-           Aenean nec congue orci. Donec in eros sed <a href="#">ligula</a> vulputate consectetur.
-           Morbi volutpat enim nec dui egestas mattis. Cras vitae aliquam dui,
-           vel lobortis mi. Mauris gravida nisi a dolor faucibus, vitae
-           venenatis mi venenatis. Curabitur <span>blandit</span> velit in ipsum auctor ultrices.
-           Suspendisse potenti. Donec in dolor id ligula aliquam venenatis.
-           Pellentesque quis accumsan neque.
-         </p>
-<pre>
-<code class="language-php">
-$productAttributeOptions = $product->getTypeInstance(true)->getConfigurableAttributesAsArray($product);
-$attributeOptions = array();
-foreach ($productAttributeOptions as $productAttribute) {
-  foreach ($productAttribute['values'] as $attribute) {
-    $attributeOptions[$productAttribute['label']][$attribute['value_index']] = $attribute['store_label'];
-  }
-}
-</code>
-</pre>
-         <p>
-           Aenean elit nisi, venenatis ullamcorper molestie eget,
-           dapibus et lectus. Mauris quis pellentesque odio,
-           et varius lorem. Donec venenatis hendrerit magna,
-           vitae tristique enim posuere eu. Curabitur nec venenatis quam.
-           Cum sociis natoque penatibus et magnis dis parturient montes,
-            nascetur <a href="#">ridiculus</a> mus. Ut eget nunc libero. Suspendisse aliquam
-            turpis sapien, at vehicula nulla pretium vitae. Sed interdum risus
-            vitae gravida elementum. Ut laoreet venenatis diam, porta gravida
-            nibh pulvinar at. Vestibulum a justo varius, bibendum dolor ut,
-            congue libero. Sed ac massa nisl. Suspendisse nec molestie sapien.
-            Nullam scelerisque scelerisque diam, eget imperdiet risus ultrices imperdiet.
-          </p>
-          <p>
-            Fusce maximus turpis a turpis vulputate, id vulputate metus pharetra.
-            Praesent in augue id lacus consectetur scelerisque. Suspendisse nec
-            velit orci. Quisque sit amet libero mollis, pellentesque turpis sed,
-             faucibus nisl. Nam eget augue sed lectus pharetra fringilla nec
-             ornare enim. Vestibulum vitae tristique lorem. Maecenas ligula ipsum,
-             fermentum at rhoncus id, <a href="#">consequat</a> a arcu. Praesent elementum nibh
-             ut finibus cursus. Proin ultrices vehicula sem, nec finibus risus
-             pharetra eget. Quisque tempus massa quis maximus congue.
-             Pellentesque habitant morbi tristique senectus et netus et malesuada
-             fames ac turpis egestas. Nulla id arcu ac sem porttitor sagittis.
-          </p>
           <div class="comments">
-            <h4>Comments:</h4>
-            <ul>
-              <li>
-                <span>Eerik Koskelo</span><span>(11.02.2015)</span>
-                <p>Woooah! This artcile is awesome! I like it!</p>
-              </li>
-              <li>
-                <span>Erland Bodin</span><span>(14.02.2015)</span>
-                <p>Praesent elementum nibh ut finibus cursus. Proin ultrices vehicula sem, nec finibus risus pharetra eget. </p>
-              </li>
-              <li>
-                <span>Henri Guy</span><span>(16.06.2015)</span>
-                <p>Ut eget nunc libero. Suspendisse aliquam turpis sapien, at vehicula nulla pretium vitae. Sed interdum risus vitae gravida elementum. Ut laoreet venenatis diam, porta gravida nibh pulvinar at. </p>
-              </li>
-            </ul>
-            <h4>Leave a comment:</h4>
+            <h4>Send us a message:</h4>
             <form>
               <input type="email" name="email" placeholder="email"/>
-              <input type="text" name="name" placeholder="Name"/>
-              <textarea placeholder="Your comment"></textarea>
+              <input type="text" name="name" placeholder="name"/>
+              <input type="text" name="subject" placeholder="subject"/>
+              <textarea placeholder="message"></textarea>
               <button type="submit">SEND</button>
             </form>
           </div>
       </div>
-      <!-- // single blog post -->
+      <!-- // contact -->
     </div>
     <aside class="pull-left">
       <div class="widget">
