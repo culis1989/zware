@@ -589,3 +589,18 @@ button{
 	cursor: pointer;
   border-bottom: 3px solid #2F2F2F;
 }
+body.error404{
+	background-color: #2F2F2F;
+	text-align: center;
+	color: #fff;
+	padding-top: 150px;
+}
+body.error404 img{
+	margin-bottom: 60px;
+}
+body.error404 h1{
+	color: #F17130;
+	margin-bottom: 0;
+	font-size: 70px;
+	line-height: 70px;
+}
